@@ -112,3 +112,7 @@ PRODUCT_PACKAGES += \
     PrimaryColdWhite \
     PrimaryWarmWhite \
     PrimaryDarkBlue
+
+# LocationProvider
+PRODUCT_PACKAGES += \
+    PhoneLocationProvider

@@ -145,3 +145,10 @@ else
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*.so,vendor/bliss/prebuilt/suda/lib/$(SUDA_CPU_ABI),system/lib)
 endif
+
+# Phonelocation!
+PRODUCT_COPY_FILES +=  \
+    vendor/bliss/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
+  # World SPN overrides list
+PRODUCT_COPY_FILES += \
+    vendor/bliss/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
